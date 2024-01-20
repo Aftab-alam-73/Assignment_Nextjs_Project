@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    padding: 10px;
+}
+.heading{
+    color: white;
+    text-shadow: 2px 2px 4px #111111;
+}
+.link{
+    text-decoration: none;
+    color: inherit;
+    font-weight: 500;
+}
+.btn{
+    text-decoration: none;
+    color: inherit;
+    font-weight: 500;
+    background-color: green;
+    padding: 10px;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: greenyellow;
+}
+.btn:active{
+    font-size: 15.8px;
+}

@@ -1,0 +1,32 @@
+.container{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   gap: 30px;
+
+}
+.heading{
+    text-shadow: 2px 2px 4px #000000;
+}
+.form{
+    background-image: linear-gradient(orange,white,green) ;
+    padding: 10px;
+    border-radius: 5px;
+}
+.section{
+    margin-bottom: 20px;
+    display: flex;
+    gap: 40px;
+}
+.input{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.btn{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
